@@ -1,0 +1,10 @@
+TASK=GAME1H001
+PHASE=PREPARATION
+STATE=IDLE
+ACTION=Repository baseline ready; waiting for controlled benchmark start
+LAST_TEST=GAME1H001_PREP
+LAST_TEST_RESULT=PENDING
+ROADMAP_GREEN=1
+ROADMAP_RED=27
+UPDATED_UTC=2026-09-20T18:54:05Z
+HEARTBEAT_POLICY=Update at phase start, tests, meaningful changes, PASS or STOP
