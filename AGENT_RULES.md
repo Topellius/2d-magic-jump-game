@@ -47,3 +47,17 @@ No paid API or paid fallback.
 No automatic merge.
 No work outside this repository except through the established pipeline.
 MAX_ATTEMPTS remains one.
+
+## GAME1H001 bounded sequential progression
+
+During the explicitly authorized GAME1H001 benchmark only:
+
+- the infrastructure still runs exactly one queue task
+- after a GAME phase gate PASSes, first change only that phase RED -> GREEN
+- update docs/PROGRESS.md and docs/AGENT_STATUS.md
+- then continue inside the same GAME1H001 task to the next lowest-numbered RED GAME phase
+- never skip an incomplete RED phase
+- STOP on the first failed or unproven phase gate
+- STOP when the FREE route is unavailable
+- STOP when the task/session time limit is reached
+- never create another queue task

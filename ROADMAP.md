@@ -100,7 +100,9 @@ Damage event example:
 - GREEN = explicitly proven PASS
 - RED = incomplete, failed or unproven
 - RED blocks unrelated progression
-- agent never starts the next roadmap phase automatically
+- the queue/pipeline never starts a second queue task automatically
+- during the explicitly authorized GAME1H001 one-hour benchmark, the single running GAME1H001 queue task may continue sequentially to the next RED GAME phase only after the current phase gate PASSes
+- this internal GAME-phase progression must STOP on the first failed or unproven gate, FREE-route failure, or task/session deadline
 - phase becomes GREEN only after its stated gate passes
 
 ## Mandatory roadmap status update
