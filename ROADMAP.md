@@ -127,21 +127,21 @@ The RED -> GREEN change is therefore part of the phase completion evidence, not 
 | Phase | State | Goal | Gate |
 |---|---|---|---|
 | GAME#P0 | GREEN | requirements and architecture | roadmap approved |
-| GAME#P1 | RED | repository structure | required files/directories exist |
-| GAME#P2 | RED | Canvas + game loop | renders without JS syntax errors |
-| GAME#P3 | RED | input system | control keys detected |
-| GAME#P4 | RED | movement + gravity | left/right/jump/crouch work |
-| GAME#P5 | RED | collision | no falling through platforms |
-| GAME#P6 | RED | melee | Z damages nearby enemies only |
-| GAME#P7 | RED | forward magic | X projectile works |
-| GAME#P8 | RED | sky magic | C sky attack works |
-| GAME#P9 | RED | enemies | HP and death work |
-| GAME#P10 | RED | player HP/death | player can die |
-| GAME#P11 | RED | checkpoint respawn | correct respawn point |
-| GAME#P12 | RED | Level 1 | playable start-to-finish |
-| GAME#P13 | RED | Level 2 | separate HTML/data |
-| GAME#P14 | RED | Level 3 | harder separate level |
-| GAME#P15 | RED | JSON level protocol | schema documented |
+| GAME#P1 | GREEN | repository structure | required files/directories exist |
+| GAME#P2 | GREEN | Canvas + game loop | renders without JS syntax errors |
+| GAME#P3 | GREEN | input system | control keys detected |
+| GAME#P4 | GREEN | movement + gravity | left/right/jump/crouch work |
+| GAME#P5 | GREEN | collision | no falling through platforms |
+| GAME#P6 | GREEN | melee | Z damages nearby enemies only |
+| GAME#P7 | GREEN | forward magic | X projectile works |
+| GAME#P8 | GREEN | sky magic | C sky attack works |
+| GAME#P9 | GREEN | enemies | HP and death work |
+| GAME#P10 | GREEN | player HP/death | player can die |
+| GAME#P11 | GREEN | checkpoint respawn | correct respawn point |
+| GAME#P12 | GREEN | Level 1 | playable start-to-finish |
+| GAME#P13 | GREEN | Level 2 | separate HTML/data |
+| GAME#P14 | GREEN | Level 3 | harder separate level |
+| GAME#P15 | GREEN | JSON level protocol | schema documented |
 | GAME#P16 | RED | camera | stable scrolling |
 | GAME#P17 | RED | HUD | HP/cooldown/level/checkpoint |
 | GAME#P18 | RED | pause/restart | safe pause/restart |

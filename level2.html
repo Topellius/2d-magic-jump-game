@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Magic Jump Game - Level 2</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <div id="game-container">
+        <header id="game-header">
+            <h1>2D Magic Jump Game - Level 2</h1>
+            <div id="hud">
+                <span id="hud-hp">HP: 100/100</span>
+                <span id="hud-score">Score: 0</span>
+                <span id="hud-level">Level: 2</span>
+                <span id="hud-checkpoint">Checkpoint: Start</span>
+                <span id="hud-cooldown">Magic CD: Ready</span>
+            </div>
+        </header>
+        <main id="game-main">
+            <canvas id="gameCanvas" width="800" height="450"></canvas>
+            <div id="pause-overlay" class="hidden">
+                <h2>PAUSED</h2>
+                <p>Press ESC to resume</p>
+                <button id="restart-btn">Restart from Checkpoint</button>
+            </div>
+            <div id="gameover-overlay" class="hidden">
+                <h2>GAME OVER</h2>
+                <p>Press R or click to Respawn at Checkpoint</p>
+                <button id="gameover-restart-btn">Respawn</button>
+            </div>
+            <div id="win-overlay" class="hidden">
+                <h2>LEVEL COMPLETE!</h2>
+                <p>You finished all levels!</p>
+                <button id="next-level-btn">Restart Game</button>
+            </div>
+        </main>
+        <footer id="game-footer">
+            <p>Controls: Left/Right Arrow (Move), Up Arrow (Jump), Down Arrow (Crouch), Z (Melee), X (Forward Magic), C (Sky Magic), ESC (Pause)</p>
+        </footer>
+    </div>
+    <script src="js/input.js"></script>
+    <script src="js/physics.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/combat.js"></script>
+    <script src="js/magic.js"></script>
+    <script src="js/enemies.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/respawn.js"></script>
+    <script src="js/level-loader.js"></script>
+    <script src="js/debug.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
