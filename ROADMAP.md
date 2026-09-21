@@ -142,9 +142,9 @@ The RED -> GREEN change is therefore part of the phase completion evidence, not 
 | GAME#P13 | GREEN | Level 2 | separate HTML/data |
 | GAME#P14 | GREEN | Level 3 | harder separate level |
 | GAME#P15 | GREEN | JSON level protocol | schema documented |
-| GAME#P16 | RED | camera | stable scrolling |
-| GAME#P17 | RED | HUD | HP/cooldown/level/checkpoint |
-| GAME#P18 | RED | pause/restart | safe pause/restart |
+| GAME#P16 | GREEN | camera | stable scrolling |
+| GAME#P17 | GREEN | HUD | HP/cooldown/level/checkpoint |
+| GAME#P18 | GREEN | pause/restart | safe pause/restart |
 | GAME#P19 | RED | C++ core | selected logic compiles to WASM |
 | GAME#P20 | RED | WASM integration | browser really calls WASM |
 | GAME#P21 | RED | smoke tests | movement/combat/respawn PASS |
