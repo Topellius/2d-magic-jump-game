@@ -1,0 +1,27 @@
+{
+  "level": 3,
+  "worldWidth": 3500,
+  "platforms": [
+    { "x": 0, "y": 400, "width": 3500, "height": 50, "vyOffset": 0 },
+    { "x": 250, "y": 310, "width": 150, "height": 20, "vyOffset": 0 },
+    { "x": 550, "y": 230, "width": 160, "height": 20, "vyOffset": 0 },
+    { "x": 850, "y": 160, "width": 160, "height": 20, "vyOffset": 0 },
+    { "x": 1200, "y": 250, "width": 180, "height": 20, "vyOffset": 0 },
+    { "x": 1550, "y": 180, "width": 180, "height": 20, "vyOffset": 0 },
+    { "x": 1900, "y": 270, "width": 180, "height": 20, "vyOffset": 0 },
+    { "x": 2250, "y": 190, "width": 180, "height": 20, "vyOffset": 0 },
+    { "x": 2650, "y": 260, "width": 180, "height": 20, "vyOffset": 0 },
+    { "x": 3100, "y": 350, "width": 400, "height": 50, "vyOffset": 0 }
+  ],
+  "enemies": [
+    { "x": 300, "y": 260, "type": "chase" },
+    { "x": 600, "y": 180, "type": "chase" },
+    { "x": 900, "y": 110, "type": "patrol" },
+    { "x": 1300, "y": 200, "type": "chase" },
+    { "x": 1650, "y": 130, "type": "chase" },
+    { "x": 2000, "y": 220, "type": "patrol" },
+    { "x": 2350, "y": 140, "type": "chase" },
+    { "x": 2800, "y": 210, "type": "chase" }
+  ],
+  "goal": { "x": 3350, "y": 300, "width": 50, "height": 100 }
+}
