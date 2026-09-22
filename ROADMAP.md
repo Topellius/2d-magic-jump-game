@@ -1,4 +1,4 @@
-# 2D Magic Jump Game — Agent Roadmap & One-Hour Benchmark
+# 2D Magic Jump Game - Agent Roadmap & One-Hour Benchmark
 
 ## Project goal
 Browser-based 2D action/platform game published with GitHub Pages.
